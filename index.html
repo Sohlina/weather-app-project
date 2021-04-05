@@ -1,11 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App 📱</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>
+                    <span class="current-city">
+                        Current City
+                </h1>
+                </span>
+            </div>
+            <div class="col">
+                <h2>
+                    <span class="city-country">
+                        Stockholm, Sweden
+                </h2>
+                </span>
+                <p class="current-temperature">
+                    1°C
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <span class="current-date">
+
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="search-bar">
+                    <form id="search-form">
+                        <input class="form-control form-control-sm" id="city-input" type="search"
+                            placeholder="Enter city.." />
+                        <button type="submit" class="btn btn-light">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                Wednesday
+            </div>
+            <div class="col-3">
+                ☀️ 9°
+            </div>
+            <div class="col-3">
+                - m/s
+            </div>
+            <div class="col-3">
+                H: 9° ⎢ L: -3°
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-3">
+                Thursday
+            </div>
+            <div class="col-3">
+                🌤 2°
+            </div>
+            <div class="col-3">
+                - m/s
+            </div>
+            <div class="col-3">
+                H: 2° ⎢ L: -6°
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-3">
+                Friday
+            </div>
+            <div class="col-3">
+                ☀️ 2°
+            </div>
+            <div class="col-3">
+                - m/s
+            </div>
+            <div class="col-3">
+                H: 2° ⎢ L: -4°
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-3">
+                Saturday
+            </div>
+            <div class="col-3">
+                ☁️ 6°
+            </div>
+            <div class="col-3">
+                - m/s
+            </div>
+            <div class="col-3">
+                H: 6° ⎢ L: -3°
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-3">
+                Sunday
+            </div>
+            <div class="col-3">
+                🌤 1°
+            </div>
+            <div class="col-3">
+                - m/s
+            </div>
+            <div class="col-3">
+                H: 1° ⎢ L: -6°
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-3">
+                Monday
+            </div>
+            <div class="col-3">
+                🌤 1°
+            </div>
+            <div class="col-3">
+                - m/s
+            </div>
+            <div class="col-3">
+                H: 1° ⎢ L: -4°
+            </div>
+        </div>
+        <hr />
+    </div>
+    <script src="src/index.js"></script>
 </body>
+
 </html>

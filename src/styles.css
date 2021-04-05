@@ -1,0 +1,42 @@
+form {
+  width: 100px;
+  border-radius: 8px;
+  display: inline;
+  height: 40px;
+  font-size: 14px;
+  margin: 30px 5px;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 26px;
+  padding: 40px;
+  padding-bottom: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+.current-city {
+  font-size: 30px;
+}
+
+.current-temperature {
+  font-size: 56px;
+  font-weight: 50;
+  padding-top: 20px;
+}
+
+span .current-date {
+  text-align: right;
+}
+
+.form-control {
+  width: 200px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  display: inline;
+  height: 40px;
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+}
