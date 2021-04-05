@@ -27,6 +27,10 @@ form {
   padding-top: 20px;
 }
 
+.open-source-page {
+  text-align: center;
+}
+
 span .current-date {
   text-align: right;
 }
